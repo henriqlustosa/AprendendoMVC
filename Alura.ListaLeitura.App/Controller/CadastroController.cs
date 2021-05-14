@@ -10,9 +10,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Alura.ListaLeitura.App.Logica
+namespace Alura.ListaLeitura.App.Controller
 {
-    public class LogicaCadastro
+    public class CadastroController
     {
         public static Task Incluir(HttpContext context)
         {

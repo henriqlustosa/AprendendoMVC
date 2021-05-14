@@ -12,7 +12,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Alura.ListaLeitura.App.Logica;
 using Alura.ListaLeitura.App.Mvc;
-
 namespace Alura.ListaLeitura.App
 {
     public class Startup
@@ -21,22 +20,28 @@ namespace Alura.ListaLeitura.App
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRouting();
+
+            services.AddMvc();
+    
         }
         public void Configure(IApplicationBuilder app)
         {
             //app.Run(Roteamento);
-            var routeBuilder = new RouteBuilder(app);
-            routeBuilder.MapRoute("{classe}/{metodo}", RoteamentoPadrao.TratamentoPadrao);
-            //routeBuilder.MapRoute("Livros/ParaLer", LogicaLivros.ParaLer);
-            //routeBuilder.MapRoute("Livros/Lendo", LogicaLivros.Lendo);
-            //routeBuilder.MapRoute("Livros/Lidos", LogicaLivros.Lidos);
-            //routeBuilder.MapRoute("Cadastro/NovoLivro/{nome}/{autor}", LogicaCadastro.NovoLivro);
-            //routeBuilder.MapRoute("Cadastro/ExibeFormulario", LogicaCadastro.ExibeFormulario);
-            //routeBuilder.MapRoute("Livros/Detalhes/{id:int}", LogicaLivros.Detalhes);
-            //routeBuilder.MapRoute("Cadastro/Incluir", LogicaCadastro.Incluir);
-            var rotas = routeBuilder.Build();
+            //var routeBuilder = new RouteBuilder(app);
 
-            app.UseRouter(rotas);
+            ////routeBuilder.MapRoute("{classe}/{metodo}", RoteamentoPadrao.TratamentoPadrao);
+            ////routeBuilder.MapRoute("Livros/ParaLer", LogicaLivros.ParaLer);
+            ////routeBuilder.MapRoute("Livros/Lendo", LogicaLivros.Lendo);
+            ////routeBuilder.MapRoute("Livros/Lidos", LogicaLivros.Lidos);
+            ////routeBuilder.MapRoute("Cadastro/NovoLivro/{nome}/{autor}", LogicaCadastro.NovoLivro);
+            ////routeBuilder.MapRoute("Cadastro/ExibeFormulario", LogicaCadastro.ExibeFormulario);
+            ////routeBuilder.MapRoute("Livros/Detalhes/{id:int}", LogicaLivros.Detalhes);
+            ////routeBuilder.MapRoute("Cadastro/Incluir", LogicaCadastro.Incluir);
+            //var rotas = routeBuilder.Build();
+
+            //app.UseRouter(rotas);
+
+            app.UseMvcWithDefaultRoute();
 
         }
 
