@@ -21,9 +21,9 @@ namespace Alura.ListaLeitura.App
             //ImprimeLista(_repo.Lidos);
         }
 
-        static void ImprimeLista(ListaDeLeitura lista)
-        {
-            Console.WriteLine(lista);
-        }
+    //    static void ImprimeLista(ListaDeLeitura lista)
+    //    {
+    //        Console.WriteLine(lista);
+    //    }
     }
 }

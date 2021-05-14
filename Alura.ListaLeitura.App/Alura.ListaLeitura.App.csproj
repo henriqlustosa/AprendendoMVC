@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <ApplicationIcon />
-    <StartupObject />
+    <StartupObject>Alura.ListaLeitura.App.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
