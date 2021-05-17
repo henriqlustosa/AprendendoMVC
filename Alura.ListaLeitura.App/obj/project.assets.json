@@ -8491,6 +8491,7 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore >= 2.2.0",
       "Microsoft.AspNetCore.Mvc >= 2.2.0",
+      "Microsoft.AspNetCore.Mvc.Razor >= 2.2.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -8542,6 +8543,10 @@
             "version": "[2.2.0, )"
           },
           "Microsoft.AspNetCore.Mvc": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "Microsoft.AspNetCore.Mvc.Razor": {
             "target": "Package",
             "version": "[2.2.0, )"
           },

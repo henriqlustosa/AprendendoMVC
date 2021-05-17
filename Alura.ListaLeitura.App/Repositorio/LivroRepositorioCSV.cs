@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Alura.ListaLeitura.App.Negocio;
+using Alura.ListaLeitura.App.Models;
 using System.IO;
 using System.Linq;
 
@@ -9,7 +9,7 @@ namespace Alura.ListaLeitura.App.Repositorio
 {
     public class LivroRepositorioCSV : ILivroRepositorio
     {
-        private static readonly string nomeArquivoCSV = @"C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\Repositorio\livros.csv";
+        private static readonly string nomeArquivoCSV = "Repositorio\\livro.csv";
 
         private ListaDeLeitura _paraLer;
         private ListaDeLeitura _lendo;
@@ -21,7 +21,7 @@ namespace Alura.ListaLeitura.App.Repositorio
             var arrayLendo = new List<Livro>();
             var arrayLidos = new List<Livro>();
 
-            using(var file = File.OpenText(nomeArquivoCSV))
+            using(var file = File.OpenText(LivroRepositorioCSV.nomeArquivoCSV))
             {
                 while (!file.EndOfStream)
                 {
@@ -68,7 +68,7 @@ namespace Alura.ListaLeitura.App.Repositorio
         public void Incluir(Livro livro)
         {
             var id = Todos.Select(l => l.Id).Max();
-            using (var file = File.AppendText(nomeArquivoCSV))
+            using (var file = File.AppendText(LivroRepositorioCSV.nomeArquivoCSV))
             {
                 file.WriteLine($"para-ler;{id+1};{livro.Titulo};{livro.Autor}");
             }
