@@ -10,3 +10,16 @@ C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaL
 C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.pdb
 C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.genruntimeconfig.cache
 C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.csprojAssemblyReference.cache
+C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.Views.dll
+C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.Views.pdb
+C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.RazorAssemblyInfo.cache
+C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.RazorAssemblyInfo.cs
+C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.TagHelpers.input.cache
+C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.TagHelpers.output.cache
+C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.RazorCoreGenerate.cache
+C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Razor\Views\Cadastro\formulario.cshtml.g.cs
+C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Razor\Views\Livros\lista.cshtml.g.cs
+C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.RazorTargetAssemblyInfo.cache
+C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.RazorTargetAssemblyInfo.cs
+C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.Views.pdb
+C:\Users\h013026\OneDrive - Default Directory\Workspace_Treinamento\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.csproj.CopyComplete
